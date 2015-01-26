@@ -1,5 +1,13 @@
+####
+#
+# Dockerfile for building an baseimage as base for further images;
+#
+# this is a fork from https://github.com/phusion/baseimage-docker 
+####
+
 FROM ubuntu:14.04
-MAINTAINER Phusion <info@phusion.nl>
+MAINTAINER Henri Knochenhauer <henri.knochenhauer@eccenca.com>
+MAINTAINER René Pietzsch <rene.pietzsch@eccenca.com>
 
 ENV HOME /root
 RUN mkdir /build
