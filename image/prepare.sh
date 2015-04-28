@@ -47,4 +47,4 @@ apt-get dist-upgrade -y --no-install-recommends
 
 ## Fix locale.
 $minimal_apt_get_install language-pack-en
-locale-gen en_US
+locale-gen en_US.UTF-8
