@@ -12,6 +12,9 @@ MAINTAINER René Pietzsch <rene.pietzsch@eccenca.com>
 ENV HOME /root
 RUN mkdir /build
 ADD . /build
+# Set the time zone
+RUN echo "Europe/London" > /etc/timezone && dpkg-reconfigure -f noninteractive tzdata \
+ && cp /etc/timezone /tz/ && cp /etc/localtime /tz/
 
 RUN /build/prepare.sh && \
 	/build/system_services.sh && \
