@@ -1,10 +1,12 @@
-## 0.9.15 (release date: 2014-10-03)
 # Change Log
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+### Added
+- libraries: telnet, lsof, wget
 
 ### Changed
 - update baseimage to latest ubuntu
