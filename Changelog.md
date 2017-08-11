@@ -1,4 +1,16 @@
 ## 0.9.15 (release date: 2014-10-03)
+# Change Log
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## [Unreleased]
+
+### Changed
+- update baseimage to latest ubuntu
+
+
+## [0.9.15] release date: 2014-10-03
 
  * Fixed the setuid bit on /usr/bin/sudo. This problem was caused by Docker bug #6828.
 
